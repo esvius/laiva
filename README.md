@@ -1,4 +1,4 @@
-# Laiva
+# Laiva Theme
 
 Custom fonts and themes for [Kettu](https://github.com/C0C0B01/KettuManager) (Discord mobile).
 
@@ -15,19 +15,10 @@ Kettu → Settings → Themes → **+** → paste the URL → select it.
 - Wallpaper visibility: change `"alpha"` at the end of `laiva.json` (0.0 – 1.0).
 
 ## Font: Cormorant
-Serif font with full Turkish character support (ğ ş ı İ ö ü ç).
+Serif font with full Turkish character support.
 
 ```
 https://raw.githubusercontent.com/esvius/laiva/main/Cormorant.json
 ```
 
 Kettu → Settings → Fonts → **+** → paste the URL → select it → restart the app.
-
-## Structure
-```
-laiva.json          theme (wallpaper embedded)
-Cormorant.json      font definition
-fonts/              Cormorant .ttf files
-wallpapers/         source wallpaper
-OFL.txt             Cormorant license (SIL Open Font License)
-```
